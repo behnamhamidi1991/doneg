@@ -1,0 +1,105 @@
+:root {
+  --primary-light: #fff;
+  --secondary-light: #f0f1f1;
+  --text-light: #111316;
+  --primary-dark: #0d1116;
+  --secondary-dark: #1e252d;
+  --text-dark: #e2e1e1;
+  --primary-red: #db1f1f;
+  --secondary-red: #f94f4d;
+  --tomato-red: #f86363;
+  --light-red: #fb9696;
+  --dark-red: #600808;
+  --light-green: #00e97b;
+  --dark-green: #396a47;
+  --light-blue: #296cd4;
+  --dark-blue: #1a4a96;
+  --darker-blue: #0c2b5c;
+  --yellow-color: #fbcd00;
+  --orange-color: #ffa81f;
+  --first-gray: #f1f1f1;
+  --second-gray: #cccccf;
+  --third-gray: #a5a5aa;
+  --fourth-gray: #5c5c65;
+  --fifth-gray: #3b3b42;
+  --dark-gray: #1d1d21;
+}
+
+@font-face {
+  font-family: "iranYekan";
+  src: url("./src/assets/fonts/iranyekanwebregular.ttf");
+}
+@font-face {
+  font-family: "iranYekanBold";
+  src: url("./src/assets/fonts/iranyekanwebextrabold.ttf");
+}
+@font-face {
+  font-family: "iranYekanBlack";
+  src: url("./src/assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanExtraBlack";
+  src: url("./src/assets/fonts/iranyekanwebextrablack.ttf");
+}
+@font-face {
+  font-family: "iranYekanThin";
+  src: url("./src/assets/fonts/iranyekanwebthin.ttf");
+}
+
+@font-face {
+  font-family: 'iranSans';
+  src: url('../assets/fonts/IRANSansWeb\(FaNum\).ttf');
+}
+
+@font-face {
+  font-family: 'iranSansBold';
+  src: url('../assets/fonts/IRANSansWeb\(FaNum\)_Bold.ttf');
+}
+
+@font-face {
+  font-family: 'iranSansBlack';
+  src: url('../assets/fonts/IRANSansWeb\(FaNum\)_Black.ttf');
+}
+
+@font-face {
+  font-family: 'iranSansLight';
+  src: url('../assets/fonts/IRANSansWeb\(FaNum\)_Light.ttf');
+}
+
+
+.top-banner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 600px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  cursor: grab;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  filter: brightness(40%);
+}
+
+
+
+/* swiper.css */
+.swiper-pagination-bullet {
+  background-color: white; /* Set the background color to white */
+}

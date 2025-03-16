@@ -1,0 +1,238 @@
+:root {
+  --bg-color: #060818;
+  --primary-color: #0e1726;
+  --primary-blue: #4361ee;
+  --secondary-blue: #152143;
+  --primary-sky: #2196f3;
+  --secondary-sky: #0b2f52;
+  --primary-green: #00ab55;
+  --secondary-green: #0c272b;
+  --primary-yellow: #e2a03f;
+  --secondary-yellow: #282625;
+  --primary-red: #e7515a;
+  --secondary-red: #2c1c2b;
+  --primary-purple: #805dca;
+  --secondary-purple: #1d1a3b;
+  --primary-gray: #3b3f5c;
+  --secondary-gray: #181e2e;
+  --primary-light: #f0f0f0;
+  --bg-light: #fff;
+  --secondary-text: #848ca8;
+}
+
+body.light {
+  background-color: var(--primary-light);
+  color: var(--primary-light);
+}
+
+.light #header {
+  background-color: var(--bg-light);
+}
+
+.light #top {
+  border-radius: 0;
+}
+
+.light #main .sidebar {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.light .sidebar .sidebar-profile {
+  background-color: var(--bg-light);
+}
+
+.light /* # TOP BANNER */
+#top {
+  padding: 1% 10%;
+  height: 600px;
+  background: none;
+  background-image: url("../assets/images/yuhaimedia-ykI7BeSWgMo-unsplash.jpg");
+  border-radius: 0 0 50px 50px;
+}
+
+.light #project .project-container .project-box {
+  background-color: var(--bg-light);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: var(--bg-color);
+}
+
+.light
+  #project
+  .project-container
+  .project-box
+  .project-box-bottom
+  .project-box-content
+  h2 {
+  color: var(--primary-color);
+  font-size: 17px;
+  font-family: "iranYekanBold";
+}
+
+.light
+  #project
+  .project-container
+  .project-box
+  .project-box-bottom
+  .project-box-buttons
+  a {
+  background-color: var(--primary-light);
+  color: var(--primary-gray);
+}
+.light
+  #project
+  .project-container
+  .project-box
+  .project-box-bottom
+  .project-box-buttons
+  a:hover {
+  background-color: #e0e0e0;
+}
+
+.light .react {
+  background-color: var(--primary-light);
+  color: var(--primary-sky);
+}
+.light .redux {
+  background-color: var(--primary-light);
+  color: var(--primary-yellow);
+}
+.light .php {
+  background-color: var(--primary-light);
+  color: var(--primary-purple);
+}
+.light .laravel {
+  background-color: var(--primary-light);
+  color: var(--primary-red);
+}
+.light .mysql {
+  background-color: var(--primary-light);
+  color: var(--primary-green);
+}
+.light .postgresql {
+  background-color: var(--primary-light);
+  color: var(--primary-sky);
+}
+.light .nextjs {
+  background-color: var(--primary-light);
+  color: var(--secondary-text);
+}
+
+.light .nodejs {
+  background-color: var(--primary-light);
+  color: #00a10d;
+}
+.light .mongodb {
+  background-color: var(--primary-light);
+  color: #be1787;
+}
+.light .reactnative {
+  background-color: var(--primary-light);
+  color: #4698f5;
+}
+
+.light .soft-skills .soft-skills-box span {
+  background-color: var(--primary-light);
+  color: var(--primary-color);
+}
+
+.light .sidebar .sidebar-profile .dev-skills span {
+  background-color: var(--primary-light);
+}
+
+.light .section-title {
+  color: var(--secondary-text);
+  border-right: 4px solid var(--secondary-text);
+}
+
+.light .input-container input,
+.light .input-container select,
+.light .input-container textarea {
+  background-color: var(--bg-light);
+  color: var(--primary-gray);
+  border-right: solid 1px var(--secondary-text);
+}
+
+.light .success-message {
+  background-color: var(--bg-light);
+  margin: 5px 0;
+}
+
+.light .error-message {
+  color: var(--primary-red);
+  background-color: var(--bg-light);
+}
+
+.light .single-project-container .single-project-header {
+  background-color: var(--bg-light);
+}
+
+.light .single-project-content {
+  background-color: var(--bg-light);
+  color: var(--primary-gray);
+}
+
+.light .single-project-side-others-container {
+  background-color: var(--bg-light);
+}
+
+.light .single-project-side-others li a {
+  color: var(--primary-gray);
+}
+
+.light .single-project-side-others-bottom ul {
+  background-color: var(--bg-light);
+  color: var(--primary-gray);
+}
+
+.light .single-project-side-others-bottom ul li a {
+  color: var(--primary-gray);
+}
+
+.light .back-btn {
+  color: var(--primary-blue);
+  background-color: var(--primary-light);
+}
+
+.light .single-project-btn:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.light .single-project-btn {
+  color: var(--primary-gray);
+  background-color: var(--primary-light);
+}
+
+.light .back-btn:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.light .single-project-side-others-bottom ul li a:hover {
+  color: var(--primary-blue);
+}
+
+.light #header .header-right .header-navbar.menu-open {
+  background-color: var(--primary-light);
+}
+
+.light .pagination button {
+  background-color: var(--bg-light);
+  color: var(--primary-gray);
+  font-family: "iranYekan";
+  border: 1px solid #e7e7e7;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.light .pagination button:nth-child(2) {
+  background-color: var(--primary-blue);
+  color: var(--primary-light);
+}
+
+.light .bxs-moon {
+  display: inline;
+  color: var(--primary-gray);
+}
+
+.light .bxs-sun {
+  display: none;
+}

@@ -1,0 +1,146 @@
+:root {
+  --bg-color: #060818;
+  --primary-color: #0e1726;
+  --primary-blue: #4361ee;
+  --secondary-blue: #152143;
+  --primary-sky: #2196f3;
+  --secondary-sky: #0b2f52;
+  --primary-green: #00ab55;
+  --secondary-green: #0c272b;
+  --primary-yellow: #e2a03f;
+  --secondary-yellow: #282625;
+  --primary-red: #e7515a;
+  --secondary-red: #2c1c2b;
+  --primary-purple: #805dca;
+  --secondary-purple: #1d1a3b;
+  --primary-gray: #3b3f5c;
+  --secondary-gray: #181e2e;
+  --primary-light: #f0f0f0;
+  --bg-light: #fff;
+  --secondary-text: #848ca8;
+}
+
+@media screen and (max-width: 1843px) {
+  .single-project-container {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 1543px) {
+  .project-wrapper {
+    padding: 2% 10%;
+  }
+
+  .single-project-container {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .project-wrapper {
+    padding: 2% 6%;
+  }
+
+  .single-project-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1191px) {
+  #header .header-right .header-navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -350px;
+    background-color: var(--secondary-gray);
+    width: 90%;
+    right: 5%;
+    padding: 25px;
+    border-radius: 4px;
+    z-index: 1000;
+  }
+
+  #header .header-right .header-navbar.menu-open {
+    top: 90px;
+  }
+
+  #header .header-right .hamburger {
+    display: flex !important;
+  }
+
+  .hireme-form {
+    padding: 0 10%;
+  }
+
+  .project-wrapper {
+    padding: 2% 3%;
+  }
+}
+
+@media screen and (max-width: 907px) {
+  .swiper-container {
+    height: 100%;
+  }
+  .top-card-right {
+    width: 100%;
+  }
+
+  .single-project-container .single-project-header {
+    padding: 25px 15px;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .top-card-right h1 {
+    font-size: 38px;
+  }
+
+  .top-card-right h2 {
+    font-size: 22px;
+  }
+
+  .top-card-right p {
+    font-size: 12px;
+  }
+
+  .hireme-form {
+    padding: 0 5%;
+  }
+  .back-button {
+    display: none;
+  }
+  .single-project-container .single-project-header .single-project-buttons {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 611px) {
+  .download-resume-btn {
+    display: none;
+  }
+  .hireme-btn {
+    display: none;
+  }
+
+  .top-card-right h1 {
+    font-size: 28px;
+  }
+
+  .top-card-right h2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .top-card-right h1 {
+    font-size: 18px;
+  }
+
+  .top-card-right h2 {
+    font-size: 12px;
+  }
+  .top-card-right p {
+    font-size: 10px;
+  }
+}
