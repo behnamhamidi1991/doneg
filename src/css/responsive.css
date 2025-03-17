@@ -139,21 +139,6 @@
       flex-direction: column-reverse;
     }
 
-    #top-posts .top-posts-main {
-      border-radius: 10px;
-      position: relative;
-      height: 100%;
-    }
-
-    #top-posts .top-posts-sidebar .top-posts-sidebar-posts {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-
-    #top-posts .top-posts-sidebar .top-posts-sidebar-posts-box {
-      height: 100%;
-    }
   }
 
   @media screen and (max-width: 755px) {
@@ -163,12 +148,6 @@
 
     .featured-posts-content p {
       font-size: 13px;
-    }
-  }
-
-  @media screen and (max-width: 805px) {
-    #top-posts .top-posts-sidebar .top-posts-sidebar-posts {
-      grid-template-columns: 1fr;
     }
   }
 
