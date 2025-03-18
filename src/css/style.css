@@ -497,3 +497,17 @@ body {
 .main-posts-middle-body-box-content-bottom .gadgets-like:hover {
   color: var(--secondary-red);
 }
+
+.side-posts-ad-second {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.side-posts-ad-second a img {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
