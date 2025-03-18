@@ -61,7 +61,10 @@
   }
 }
 
-@media screen and (max-width: 1425px) {
+@media screen and (max-width: 1473px) {
+  #app-wrapper {
+    padding: 2em 8%;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -70,7 +73,10 @@
   }
 }
 
-@media screen and (max-width: 1225px) {
+@media screen and (max-width: 1295px) {
+  #app-wrapper {
+    padding: 2em 4%;
+  }
 }
 
 @media screen and (max-width: 1145px) {
@@ -91,6 +97,12 @@
   .featured-posts-content {
     width: 85%;
     right: 30px;
+  }
+
+  #posts-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
   }
 }
 

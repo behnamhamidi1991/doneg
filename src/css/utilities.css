@@ -62,6 +62,10 @@
   margin-bottom: 10px;
 }
 
+.section-header h3 {
+  cursor: default;
+}
+
 .section-header h3,
 .section-header a {
   font-size: 14px;

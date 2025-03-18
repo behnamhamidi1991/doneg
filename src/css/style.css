@@ -282,6 +282,59 @@ body {
 #posts-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.side-posts {
+  margin-top: 25px;
+}
+
+.side-posts .side-posts-ad a img {
+  border-radius: 12px;
+}
+
+.donge-offers-wrapper {
+  margin-top: 20px;
+}
+
+.doneg-offers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+  gap: 10px;
+}
+
+.doneg-offers .doneg-offers-post-box {
+  position: relative;
+}
+
+.doneg-offers .doneg-offers-post-box img {
+  filter: brightness(50%);
+  transition: all ease-in-out 0.1s;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.doneg-offers .doneg-offers-post-box:hover img {
+  filter: brightness(120%) hue-rotate(45deg);
+}
+
+.doneg-offers .doneg-offers-post-box .doneg-offers-post-box-details {
+  color: var(--text-dark);
+  position: absolute;
+  bottom: 20px;
+  padding: 10px 20px;
+}
+
+.doneg-offers .doneg-offers-post-box .doneg-offers-post-box-details h2 {
+  font-size: 15px;
+  transition: all ease-in-out 0.1s;
+  margin-bottom: 10px;
+}
+
+.doneg-offers .doneg-offers-post-box:hover .doneg-offers-post-box-details h2 {
+  transform: translateX(3px);
 }
 
 /* MAIN POSTS */
@@ -336,6 +389,7 @@ body {
   display: flex;
   gap: 10px;
   margin: 10px 0;
+  flex-wrap: wrap;
 }
 
 .main-posts-middle-header .main-posts-middle-header-category a {
