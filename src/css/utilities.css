@@ -75,3 +75,18 @@
 .section-header a:hover {
   color: var(--secondary-red);
 }
+
+.post-gadgets {
+  display: flex;
+  gap: 18px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.post-gadgets .post-gadgets-like {
+  background-color: transparent;
+  border: none;
+  color: var(--primary-light);
+  font-family: "iranSans";
+  font-size: 14px;
+}
