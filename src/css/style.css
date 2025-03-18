@@ -344,7 +344,7 @@ body {
   align-items: center;
   gap: 5px;
   color: var(--dark-gray);
-  background-color: var(--second-gray);
+  background-color: var(--primary-light);
   padding: 6px 17px;
   border-radius: 20px;
   font-size: 13px;
@@ -363,6 +363,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: white;
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .main-posts-middle-body .main-posts-middle-body-box {
@@ -370,6 +372,10 @@ body {
   grid-template-columns: 3fr 2fr;
   padding: 10px;
   border-bottom: 1px solid var(--second-gray);
+}
+
+.main-posts-middle-body .main-posts-middle-body-box:last-child {
+  border-bottom: none;
 }
 
 .main-posts-middle-body
