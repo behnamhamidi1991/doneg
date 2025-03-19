@@ -317,7 +317,7 @@ body {
 }
 
 .doneg-offers .doneg-offers-post-box:hover img {
-  filter: brightness(120%) hue-rotate(45deg);
+  filter: brightness(100%) hue-rotate(10deg);
 }
 
 .doneg-offers .doneg-offers-post-box .doneg-offers-post-box-details {
