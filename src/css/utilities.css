@@ -94,3 +94,14 @@
   font-family: "iranSans";
   font-size: 14px;
 }
+
+.side-posts-ad-wrapper {
+  margin-top: 50px;
+}
+
+.side-posts-ad-wrapper button {
+  background-color: transparent;
+  border: none;
+  color: var(--fourth-gray);
+  cursor: pointer;
+}
