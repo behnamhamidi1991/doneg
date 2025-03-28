@@ -94,21 +94,6 @@ body {
   cursor: pointer;
 }
 
-.hamburger {
-  display: none;
-}
-
-.hamburger button {
-  background-color: transparent;
-  border: none;
-  color: var(--text-dark);
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
 #header .header-social {
   display: flex;
   justify-content: center;
@@ -248,13 +233,13 @@ body {
 .mega-menu .mega-menu-box .mega-menu-nav li a i {
   width: 40px;
   height: 40px;
-  background-color: var(--dark-gray);
+  background-color: var(--second-gray);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-light);
+  color: var(--dark-gray);
   border-radius: 15px;
-  font-size: 12px;
+  font-size: 15px;
   transition: all ease-in-out 0.1s;
 }
 
@@ -801,6 +786,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#footer .footer-description img {
+  padding-bottom: 20px;
 }
 
 #footer .footer-description p span {
