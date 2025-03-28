@@ -617,8 +617,18 @@ body {
 
 /* BOTTOM POSTS */
 
+.bottom-posts-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 80px;
+  gap: 25px;
+}
+
 #bottom-posts {
-  margin-top: 50px;
+}
+
+.bottom-ad {
+  margin: 25px 0;
 }
 
 #bottom-posts .bottom-posts-container {
@@ -676,6 +686,18 @@ body {
   .bottom-posts-box-content
   p {
   font-size: 14px;
+}
+
+.bottom-posts-side {
+}
+
+.bottom-posts-side .bottom-posts-side-ad {
+  display: flex;
+  gap: 10px;
+}
+
+.bottom-posts-side .bottom-posts-side-ad img {
+  border-radius: 12px;
 }
 
 /* FOOTER */
