@@ -77,6 +77,16 @@ body {
   align-items: center;
 }
 
+#header .header-buttons .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .header-buttons .logo img {
+  width: 25px;
+}
+
 #header .header-buttons .user-button {
   color: var(--text-dark);
   font-size: 25px;
@@ -218,6 +228,10 @@ body {
 
 .mega-menu .mega-menu-box .mega-menu-nav li a:hover {
   color: var(--secondary-red);
+}
+
+.mega-menu .mega-menu-box .mega-menu-nav li a:hover i {
+  color: var(--primary-light);
 }
 
 .mega-menu .mega-menu-box .mega-menu-nav li a div h4 {
