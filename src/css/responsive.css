@@ -159,6 +159,17 @@
   }
 }
 
+@media screen and (max-width: 563px) {
+  .main-posts-middle-body .main-posts-middle-body-box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .side-posts-ad-second {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 509px) {
   .featured-posts-content h1 {
     font-size: 16px;
@@ -177,4 +188,16 @@
 }
 
 @media screen and (max-width: 413px) {
+  .main-posts-top .main-posts-top-box {
+    position: relative;
+  }
+
+  .main-posts-top .main-posts-top-box .main-posts-top-box-content h2 {
+    font-size: 16px;
+  }
+
+  .main-posts-top-box-content .post-gadgets {
+    font-size: 12px;
+    gap: 10px;
+  }
 }
