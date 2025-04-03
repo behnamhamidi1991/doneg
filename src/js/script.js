@@ -35,3 +35,34 @@ document.addEventListener("click", (event) => {
     dropdownIcon.classList.remove("rotated"); // Reset icon rotation
   }
 });
+
+/**
+ * @darktheme
+ * Toggle the theme
+ */
+
+// Select the button and its icon
+const toggleButton = document.getElementById("dark-light");
+const icon = toggleButton.querySelector("i");
+
+// Check localStorage for the saved theme and apply it on page load
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme === "dark") {
+  document.body.classList.add("dark");
+  icon.classList.replace("bx-sun", "bx-moon"); // Set to moon icon on load if dark mode
+}
+
+// Add a click event listener to the button
+toggleButton.addEventListener("click", () => {
+  // Toggle the 'dark' class on the body element
+  document.body.classList.toggle("dark");
+
+  // Toggle the icon
+  if (document.body.classList.contains("dark")) {
+    icon.classList.replace("bx-sun", "bx-moon"); // Sun to moon
+    localStorage.setItem("theme", "dark");
+  } else {
+    icon.classList.replace("bx-moon", "bx-sun"); // Moon to sun
+    localStorage.setItem("theme", "light");
+  }
+});

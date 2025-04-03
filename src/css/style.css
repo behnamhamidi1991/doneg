@@ -528,7 +528,7 @@ body {
 .main-posts-middle-body {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--primary-light);
   border-radius: 12px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
@@ -652,6 +652,11 @@ body {
   padding: 6px 17px;
   border-radius: 20px;
   font-size: 13px;
+}
+
+.bottom-posts-middle-header .bottom-posts-middle-header-category:first-child a {
+  color: var(--first-gray);
+  background-color: var(--primary-red);
 }
 
 .bottom-posts-middle-header .bottom-posts-middle-header-category:first-child a {
