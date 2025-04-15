@@ -105,3 +105,96 @@
   color: var(--fourth-gray);
   cursor: pointer;
 }
+
+.ad-header button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin: 7px 0;
+  font-family: "iranYekan";
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.ad-header button {
+  font-size: 13px;
+}
+
+.ad-header button i {
+  font-size: 17px;
+}
+
+.ad-header button:hover {
+  color: var(--primary-red);
+}
+
+/* HOT POSTS */
+.main-hot {
+}
+
+.main-hot .hot-posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 15px;
+}
+
+.hot-header h2 {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.hot-posts-container .hot-posts-box {
+  position: relative;
+}
+
+.hot-posts-container .hot-posts-box img {
+  width: 100%;
+  height: 200px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(60%);
+  transition: all ease-in-out 0.1s;
+}
+
+.hot-posts-container .hot-posts-box a {
+  color: var(--first-gray);
+}
+
+.hot-posts-container .hot-posts-box a h3 {
+  font-size: 16px;
+}
+
+.hot-posts-container .hot-posts-box .hot-posts-title {
+  position: absolute;
+  bottom: 10px;
+  padding: 15px;
+  transition: all ease-in-out 0.1s;
+}
+
+.hot-posts-container .hot-posts-box .hot-posts-title .hot-posts-details {
+  display: flex;
+  gap: 10px;
+}
+
+.hot-posts-container .hot-posts-box .hot-posts-title .hot-posts-details span {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.hot-posts-container .hot-posts-box a:hover img {
+  filter: brightness(120%) hue-rotate(45deg);
+}
+
+.hot-posts-container .hot-posts-box a:hover .hot-posts-title {
+  transform: translateX(-2px);
+}

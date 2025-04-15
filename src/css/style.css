@@ -54,6 +54,21 @@
   src: url("../assets/fonts/IRANSansWeb\(FaNum\)_Light.ttf");
 }
 
+@font-face {
+  font-family: "iranYekanThin";
+  src: url("../assets/fonts/iranyekanwebthin.ttf");
+}
+
+@font-face {
+  font-family: "iranYekan";
+  src: url("../assets/fonts/iranyekanwebregular.ttf");
+}
+
+@font-face {
+  font-family: "faNum";
+  src: url("../assets/fonts/IRANSansWeb\(FaNum\).ttf");
+}
+
 body {
   font-family: "iranSans";
   background-color: var(--secondary-light);
@@ -856,4 +871,301 @@ body {
   align-items: center;
   padding: 12px;
   font-size: 13px;
+}
+
+/* LOGIN PAGE */
+.user-form-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-form-container .user-form {
+  background-color: var(--primary-light);
+  /* padding: 25px; */
+  width: 400px;
+  border-radius: 0 0 7px 7px;
+}
+
+.user-form-container .user-form .user-form-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-gray);
+  padding: 10px;
+  gap: 5px;
+  border-radius: 7px 7px 0 0;
+}
+
+.user-form-container .user-form .user-form-header img {
+  width: 35px;
+}
+
+.user-form-container .user-form .user-form-header h1 {
+  font-size: 20px;
+  color: var(--first-gray);
+}
+
+.user-form-container .user-form .user-form-body {
+  padding: 25px;
+  cursor: default;
+}
+
+.user-form-container .user-form .user-form-body .user-form-sub-header {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fifth-gray);
+}
+
+.user-form-container .user-form .user-form-body .user-form-sub-header h2 {
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid var(--second-gray);
+  padding: 10px;
+}
+
+.user-form-container .user-form .user-form-body .user-form-sub-header i {
+  font-size: 25px;
+}
+
+.user-form-container .user-form .user-form-body .user-form-google a {
+  color: var(--first-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--dark-gray);
+  text-align: center;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+.user-form-container .user-form .user-form-body .user-form-google a i {
+  font-size: 27px;
+}
+
+.user-form-container .user-form .user-form-body form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 45px 0;
+  font-family: "faNum";
+}
+
+.user-form-container .user-form .user-form-body form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: var(--first-gray);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-family: "faNum";
+  font-size: 18px;
+}
+
+.user-form-container .user-form .user-form-body form h2 {
+  font-size: 14px;
+  margin: 10px 0;
+  font-family: "faNum";
+}
+
+.user-form-container .user-form .user-form-body form button {
+  width: 100%;
+  background-color: var(--fifth-gray);
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  font-family: "iranYekanBold";
+  color: var(--first-gray);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.user-form-container .user-form .user-form-body form button:hover {
+  background-color: var(--fourth-gray);
+}
+
+.user-form-container .user-form .user-form-body .forget-password a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-gray);
+  gap: 10px;
+  font-size: 14px;
+  color: var(--light-blue);
+  transition: all ease-in-out 0.1s;
+}
+
+.user-form-container .user-form .user-form-body .forget-password a i {
+  background-color: var(--fifth-gray);
+  color: var(--first-gray);
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 50%;
+  background-color: var(--light-blue);
+}
+
+.user-form-container .user-form .user-form-body .forget-password a:hover {
+  color: var(--dark-blue);
+}
+
+.user-form-container .user-form .user-form-body .forget-password a:hover i {
+  background-color: var(--dark-blue);
+}
+
+/* SINGLE POST */
+.single-post-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 15px;
+}
+
+.single-post-header {
+  margin: 15px 0;
+}
+
+.single-post-header h1 {
+  font-size: 22px;
+  margin: 12px 0;
+}
+
+.single-post-header .single-post-header-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.single-post-header .single-post-header-info span {
+  font-size: 15px;
+}
+
+.single-post-header .single-post-header-info span a {
+  color: var(--dark-gray);
+  font-family: "iranYekanBold";
+}
+
+.single-post-container .single-post-main .single-post-main-content {
+  padding: 30px 50px;
+  font-size: 19px;
+  line-height: 1.9;
+}
+
+.single-post-container .single-post-main .main-content-ad {
+  margin: 15px 0;
+}
+
+.single-post-container .single-post-main .main-content-ad a img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.single-post-container .single-post-main .single-post-main-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+/* Single Post Side */
+
+.single-post-container .single-post-side {
+  border-radius: 10px;
+  height: fit-content;
+  position: sticky;
+  top: 10px;
+}
+
+.single-post-container .single-post-side .single-post-side-ad-top {
+  display: flex;
+  gap: 10px;
+}
+
+.single-post-container .single-post-side .single-post-side-ad-top a img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.single-post-side .related-posts h2 {
+  /* background-color: tomato; */
+  border-right: 3px solid var(--primary-red);
+  margin: 10px 0;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.single-post-side .related-posts .related-posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 10px;
+  border-right: 1px solid var(--third-gray);
+}
+
+.single-post-side .related-posts .related-posts-box {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-post-side .related-posts .related-posts-box a {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  color: var(--dark-gray);
+}
+
+.single-post-side .related-posts .related-posts-box h3 {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.single-post-side .related-posts .related-posts-box img {
+  width: 60px;
+  height: 45px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Second Ad Container */
+
+.single-post-side .second-ad-container {
+  margin-top: 30px;
+}
+
+.single-post-side .second-single-post-side-ad-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.single-post-side .second-single-post-side-ad-top a img {
+  width: 100%;
+  height: 100%;
+}
+
+.single-post-bottom-ad {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.single-post-bottom-ad div img {
+  width: 100%;
+  border-radius: 12px;
 }
