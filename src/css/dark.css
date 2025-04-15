@@ -212,3 +212,58 @@ body.dark {
 .dark .single-post-side .related-posts .related-posts-box a {
   color: var(--first-gray);
 }
+
+.single-posts-comment
+  .comment-box-container
+  .comment-box
+  .comment-text
+  .comment {
+  color: var(--first-gray);
+}
+
+.dark .single-posts-comment .comment-box-container .comment-box {
+  border-bottom: 1px solid var(--fifth-gray);
+}
+
+.dark .user-info {
+  color: var(--first-gray);
+  margin: 15px 0;
+}
+
+.dark
+  .single-posts-comment
+  .comment-box-container
+  .comment-box
+  .comment-text
+  .comment-tools
+  button {
+  color: var(--first-gray);
+}
+
+.dark
+  .single-posts-comment
+  .comment-box-container
+  .comment-box
+  .comment-text
+  .comment-tools
+  button.liked {
+  color: tomato;
+}
+
+.dark .single-posts-comment .single-post-comment-textarea form textarea {
+  background-color: var(--text-light);
+  color: var(--first-gray);
+}
+
+.dark .single-posts-comment .single-post-comment-textarea form button {
+  background-color: var(--text-light);
+  color: var(--first-gray);
+}
+
+.dark .ad-header button {
+  color: var(--second-gray);
+}
+
+.dark .hot-header h2 {
+  color: var(--first-gray);
+}
