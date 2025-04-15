@@ -187,3 +187,28 @@ body.dark {
 .dark #footer .copyright {
   color: var(--third-gray);
 }
+
+/* SINGLE POST */
+.dark .single-post-header h1 {
+  color: var(--first-gray);
+}
+.single-post-header .single-post-header-info {
+  color: var(--first-gray);
+}
+
+.dark .single-post-header .single-post-header-info span a {
+  color: var(--secondary-light);
+}
+
+.dark .single-post-container .single-post-main .single-post-main-content {
+  color: var(--secondary-light);
+}
+
+/* Single Post Sidebar */
+.single-post-side .related-posts h2 {
+  color: var(--first-gray);
+}
+
+.dark .single-post-side .related-posts .related-posts-box a {
+  color: var(--first-gray);
+}
